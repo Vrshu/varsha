@@ -1,1 +1,194 @@
 My devops course is going good in here
+
+
+
+
+1  touch file1
+    2  ll
+    3  cat>>file1
+    4  cat file1
+    5  more file1
+    6  touch file2
+    7  cat>>file2
+    8  more file2
+    9  cp file1 file2
+   10  cat file2
+   11  cp file1 file2
+   12  cat file2
+   13  more file2
+   14  more file1
+   15  mv file1
+   16  mv
+   17  rm file1
+   18  ll
+   19  cat file1
+   20  rm file2 -f
+   21  cat file2
+   22  rm -f*
+   23  touch file1
+   24  rm -f*
+   25  rm *-f
+   26  more file1
+   27  ll
+   28  clear
+   29  touch file {1,2..10}
+   30  ll
+   31  touch python {1..10}
+   32  cat python
+   33  ll
+   34  rm*-f
+   35  rm-f*
+   36  rm p* -f
+   37  cat python
+   38  ll
+   39  rm file* -f
+   40  ll
+   41  rm 1*2*3*4*5*6*7* -f
+   42  ll
+   43  -wc file2
+   44  -wc file1
+   45  rm 1* -f
+   46  ll
+   47  rm 2* -f
+   48  ll
+   49  rm 3* -f
+   50  ll
+   51  rm 4*5*6* -f
+   52  ll
+   53  rm 4* -f
+   54  ll
+   55  head file1
+   56  head file2
+   57  head -5 numbers
+   58  tail -5 numbers
+   59  tail -5
+   60  pwd
+   61  touch file1
+   62  ll
+   63  ls
+   64  mkdir d1
+   65  ll
+   66  cd d1
+   67  ll
+   68  touch devops{1..2}
+   69  ll
+   70  cat>devops1
+   71  cat devops1
+   72  pwd
+   73  cd ..
+   74  pwd
+   75  mkdir d2
+   76  ll
+   77  cd d2
+   78  pwd
+   79  cd
+   80  mkdir -p d1/d2
+   81  pwd
+   82  ll
+   83  cat>5
+   84  cp 5 6
+   85  cat 6
+   86  vim 6
+   87  cat 6
+   88  cat>8
+   89  cp 6 8
+   90  cat 8
+   91  cat 6
+   92  cat>>6
+   93  cat 6
+   94  cp 8 6 | grep -i
+   95  cat 8
+   96  mv 6 8
+   97  cat 8
+   98  cat 6
+   99  vi 6
+  100  cat 6
+  101  yum install tree -y
+  102  ll
+  103  tree
+  104  mkdir -p /d1/d2
+  105  tree
+  106  ll
+  107  cat /etc/passwd
+  108  tail -5 /etc/passwd
+  109  cat /etc/passwd
+  110  tail -5 /etc/passwd
+  111  tail -10 /etc/passwd
+  112  head -10 /etc/passwd
+  113  cat /proc/cpuinfo
+  114  lscpu
+  115  lsblk
+  116  cat /proc/meminfo
+  117  history
+  118  fdisk -l
+  119  git version
+  120  yum install git -y
+  121  ll
+  122  mkdir varsha
+  123  cd varsha/
+  124  ll
+  125  git init
+  126  pwd
+  127  touch file{1..2}
+  128  ll
+  129  git status
+  130  git add file*
+  131  git status
+  132  cat>file1
+  133  cat>file2
+  134  git commit -m "my commit" file*
+  135  git log
+  136  git remote add origin https://github.com/Vrshu/varsha.git
+  137  git push origin master
+  138  'll
+  139  ll
+  140  cd ..
+  141  history
+  142  git clone https://github.com/Vrshu/varsha.git
+  143  cd varsha/
+  144  git clone https://github.com/Vrshu/varsha.git
+  145  ll
+  146  cd varsha
+  147  ll
+  148  git clone https://github.com/Vrshu/varsha.git
+  149  ll
+  150  cd varsha/
+  151  ll
+  152  cd ..
+  153  ll
+  154  git branch
+  155  git branch sunny
+  156  git checkout sunny
+  157  ll
+  158  git branch
+  159  ll
+  160  touch {1,2}
+  161  touch dev{1..2}
+  162  ll
+  163  git branch varun
+  164  git checkout varun
+  165  git checkout sunny
+  166  ll
+  167  git add .
+  168  git commit -m "commit-1" .
+  169  git log
+  170  git checkout varun
+  171  ll
+  172  git merge sunny
+  173  ll
+  174  git branch
+  175  git checkout master
+  176  ll
+  177  git merge varun
+  178  ll
+  179  cat>dev1
+  180  cat>1
+  181  git push origin master
+  182  git rebase master
+  183  ll
+  184  git add .
+  185  git commit -m "1stcommit" .
+  186  git push origin master
+  187  git pull origin master
+  188  history
+[root@ip-172-31-38-87 varsha]#
